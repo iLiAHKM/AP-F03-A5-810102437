@@ -7,18 +7,19 @@
 #include <list>
 #include <math.h>
 #include <random>
-#include <algorithm>
+#include <algorithm>    
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/System.hpp>
-#include "config.hpp"
+// #include "config.hpp"
 using namespace std;
 using namespace sf;
 
 const unsigned int WIDTH = 1024;
 const unsigned int HEIGHT = 1024;
 const unsigned int FRAME_RATE = 60;
+
 const string BACKgROUNDpATH = "APF03-A5-Sprites/sprites/background/background.png";
 
 const string TIMMYmOVEwHITEpATH = "APF03-A5-Sprites/sprites/white-sheep/move.png";
@@ -80,7 +81,7 @@ enum PlayerSide
 {
     WHITE,
     BLACK
-}
+};
 
 
 #endif
